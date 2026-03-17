@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset ="UTF-8">
+    <meta name="viewport" content=""width=devide-width, initial-scale="1.0">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang</h1>
+        <p>Belajar elemen semantik HTML5</p>
+    </header>
+    <!-- bagian untuk latihan selanjutnya -->
+   
+</body>
+</html>
+
+<nav>
+    <a href="#tentang">tentang</a>  |
+    <a href="#kursus">kursus</a>  |
+    <a href="#kontak">kontak</a>  |
+    <a href="#daftar">daftar</a>
+</nav>
+
+<section id="tentang">
+    <h2>Tentang halaman ini</h2>
+    <p>Ini merupakan section untuk menu tentang</p>
+</section>
+
+<section id="kursus">
+    <h2>Daftar Kursus</h2>
+    <table border="1">
+        <tr>
+            <th>No</th>
+            <th>Nama Kursus</th>
+            <th>Durasi</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dasar HTML & CSS</td>
+            <td>4 Minggu</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>JavaScript Fundamental</td>
+            <td>6 Minggu</td>
+        </tr>
+    </table>
+</section>
+
+<section id="kontak">
+    <h2>Hubungi Kami</h2>
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama"> 
+    <br><br>
+    <label for="Email">Email:</label>
+    <input type="text" id="Email" name="Email">
+   
+    <br>
+    <p>Pesan: </p> <p> <textarea name="pesan" id="pesan" rows="5" cols="28"></textarea></p>
+
+<button type="Kirim">Kirim</button>
+</section>
+
+<section id="daftar">
+    <h2>Daftar</h2>
+   
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama"> 
+    <br><br>
+
+    <label for="email" id="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br><br>
+
+    <label for="telepon">Nomor Telepon:</label>
+    <input type="telepon" id="telepon" name="telepon">
+    <br>
+
+    <p>Jenis Kelamin:</p>
+    <input type="radio" name="gender"> Laki-laki
+    <br>
+    <input type="radio" name="gender"> Perempuan
+    <br><br>
+
+    <form action="/action_page.php">
+        <label for="tanggal">Tanggal Lahir:</label>
+        <input type="date" id="tanggal" name="tanggal">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form action="/action_page.php"></form>
+        <label for="umur">Umur:</label>
+        <input type="number" id="umur" name="umur" min="10" max="70" step="1" value="10">
+        <input type="submit" value="submit">
+    </form>
+
+     <footer>
+        <p>&copy; 2026 oleh Clement Jeremiah Jonatan. </p>
+        </footer>
